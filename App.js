@@ -2276,14 +2276,7 @@ function Dashboard({ navigation }) {
         }
       />
 
-      <Btn
-        title="🧭 Navigation Demo"
-        secondary
-        style={{ marginTop: 12 }}
-        onPress={() =>
-          navigation.navigate('NavigationDemo')
-        }
-      />
+      
 
       {!!lowStock.length && (
         <View style={styles.panel}>
