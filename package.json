@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@expo/metro-runtime": "~58.0.15",
     "@react-navigation/bottom-tabs": "^7.21.0",
     "@react-navigation/drawer": "^7.14.4",
     "@react-navigation/native": "^7.5.1",
@@ -26,5 +27,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
